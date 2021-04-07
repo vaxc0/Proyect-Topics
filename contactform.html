@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <title>Contact Form</title>
+
+</head>
+
+<body>
+
+    <div class="container.fluid">
+
+        <div class="row">
+
+            <header class="bg-white border col-12">
+                <center>
+                    <div class="container">
+                        <h2><span style="color:rgb(26, 26, 180)">Contact Form</span><span
+                                style="color:rgb(206, 30, 30)"> - Amusing English</span></h2>
+                    </div>
+                </center>
+            </header>
+
+        </div>
+    </div>
+    <center>
+        <div class="container">
+            <aside class="bg-white">
+                <img src="assets/img/eew.gif" class="img-fluid" width="150" height="150" alt="">
+                <br>
+                <br>
+        </div>
+    </center>
+    <br>
+
+    <section>
+
+        <form action="" name="f1" class="container">
+
+            <div class="row border">
+                <div class="form-group col-6">
+                    <label for="Nombre">Your Name*</label>
+                    <input type="text" class="form-control" name="" id="inputNom" placeholder="Enter name" required>
+                </div>
+                <div class="form-group col-6">
+                    <label for="Apellidos">Last Name*</label>
+                    <input type="text" class="form-control" name="" id="inputApe" placeholder="Enter last name"
+                        minlength="5" maxlength="15">
+                </div>
+
+                <div class="form-group col-6">
+                    <label for="Correo">Email</label>
+                    <input type="email" class="form-control" name="" id="inputCor" placeholder="name@example.com">
+                </div>
+                <div class="form-group col-6">
+                    <label for="Confcorreo">Confirm Email</label>
+                    <input type="email" class="form-control" name="" id="inputCcor" placeholder="">
+                </div>
+
+                <script>
+                    function Clavesiguales() {
+                        inputCont = document.f1.inputCont.value
+                        inputCfcont = document.f1.inputCfcont.value
+
+                        if (inputCont == inputCfcont)
+                            alert("\n")
+                        else
+                            alert("Las claves son distintas\n")
+                    }
+                </script>
+
+
+                <div class="form-group col-6">
+                    <label for="Contraseña">Password</label>
+                    <input type="password" class="form-control" name="" id="inputCont" placeholder="">
+                </div>
+                <div class="form-group col-6">
+                    <label for="ConfContraseña">Confirm Password</label>
+                    <input type="password" class="form-control" name="" id="inputCfcont" placeholder="">
+                </div>
+
+                <div class="form-group col-2">
+                    <label for="Seleccione el codigo de su pais">Mobile Phone</label>
+                    <select class="form-control" name="" id="select2">
+                        <option value="1">+57</option>
+                        <option value="2">+45</option>
+                        <option value="3">+33</option>
+                        <option value="4">+62</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-4">
+                    <label for="Numero">Number</label>
+                    <input type="number" class="form-control" name="" id="inputNum" placeholder="Enter number">
+                </div>
+
+                <div class="form-group col-6">
+                    <label for="Seleccione pais">Country*</label>
+                    <select class="form-control" name="" id="select1">
+                        <option value="1">Colombia</option>
+                        <option value="2">Holanda</option>
+                        <option value="3">Mexico</option>
+                        <option value="4">Suiza</option>
+                    </select>
+                </div>
+                <div class="form-group col-6">
+                    <label for="Seleccione pais">Message Subject*</label>
+                    <select class="form-control" name="" id="select1">
+                        <option value="1">Other</option>
+                        <option value="2">Web Bug</option>
+                        <option value="3">Course Error</option>
+                    </select>
+                </div>
+                <div class="form-group col-6">
+                    <label for="Nombre">Message*</label>
+                    <textarea name="message" rows="4" cols="65" placeholder="Write message" required></textarea>
+                </div>
+                <div class="col-2"></div>
+                <div class="custom-control custom-checkbox col-10">
+                    <input type="checkbox" class="custom-control-input" name="" id="Check1">
+                    <label class="custom-control-label" for="Check1">You read the above information and I would like
+                        receive information about offers received by SMS and email. </label>
+                </div>
+                <div class="col-1">
+                    <button class="btn btn-primary text-right" type="reset">Clean</button>
+                </div>
+                <div class="col-10"></div>
+                <div class="col-1">
+                    <button class="btn btn-primary text-right" type="submit"
+                        onclick="window.location='C:/Users/Unreality/Desktop/Proyect Topics/index.html'">Send</button>
+                </div>
+                <br>
+                <br>
+            </div>
+            </div>
+        </form>
+    </section>
+
+    <br>
+
+    <footer class="bg-white border">
+        <div class="container">
+            <br>
+            <center>
+                <a href="#0" target="_blank"><img src="assets/img/pngfuel.com face.png" width="45" height="45"
+                        alt="" /></a>
+                <a href="#0" target="_blank"><img src="assets/img/pngfuel.com twitt.png" width="45" height="45"
+                        alt="" /></a>
+                <a href="#0" target="_blank"><img src="assets/img/pngfuel.com insta.png" width="38" height="38"
+                        alt="" /></a>
+                <div itemscope itemtype="">
+                    <span itemprop="name">Universidad de Pamplona</span>
+                    <div>
+                        <span itemprop="streetAdd">Calle 14 JN 4A-27</span>
+                        <span itemprop="addLocality">Cúcuta</span>,
+                        <span itemprop="addRegion">Norte de Santander</span>
+                    </div>
+                    Telefono: <span itemprop="tcelular">(+57) 313 8702931</span>
+                </div>
+            </center>
+            <br>
+        </div>
+    </footer>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+</body>
+
+</html>

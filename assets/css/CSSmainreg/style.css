@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header, .main, footer{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto; 
+}
+
+header nav{
+    background: #0a0b3b;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: #0a0b3b;
+    background-color: #ffffff;
+}
+
+.main .article article{
+    padding: 20px;
+    background: rgb(156, 153, 153);
+    margin-bottom: 20px;
+}
+
+aside{
+    color: white;
+    width: 30%;
+    background: #0a0b3b;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main .article{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+footer{
+    background: black;
+    color: white;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+body {
+    font-size: 20px;
+    background: #ffffff;
+    color: rgb(10, 75, 128);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: #0a0b3b;
+    font-size: 50px;
+    position: relative;
+    top: -120px;
+    text-align: center;
+}
+
+img{
+    position: relative;
+    top: 10px;
+}
+
+.titlesp{
+    color: #0a0b3b;
+    font-size: 44px;
+    position: relative;
+    top: -145px;
+}
+
+#imsl{
+    width: 100%;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 1, 43);
+}
+
+.h2sp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(255, 47, 82);
+    font-size: 28px;
+}
+/* Contenido asi*/
